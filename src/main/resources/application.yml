@@ -2,6 +2,8 @@ server:
   port: 9093
 
 spring:
+  profiles:
+    active: dev
   application:
     name: USER-SERVICE
   datasource:
